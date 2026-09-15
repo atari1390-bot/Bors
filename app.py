@@ -1,11 +1,10 @@
-import streamlit as st
-from data.tsetmc import TSETMC
-from data.validator import validate_snapshot
-from analysis.technical import technical_analysis
-from analysis.orderbook import orderbook_analysis
-from analysis.money_flow import money_flow_analysis
-from analysis.scoring import score_stock
-from analysis.signal import build_signal
+from Data.tsetmc import TSETMC
+from Data.validator import validate_snapshot
+from Analysis.technical import technical_analysis
+from Analysis.orderbook import orderbook_analysis
+from Analysis.money_flow import money_flow_analysis
+from Analysis.scoring import score_stock
+from Analysis.signal import build_signal
 
 st.set_page_config(page_title="Iran Stock AI", page_icon="📈", layout="wide")
 
